@@ -1,0 +1,102 @@
+/* styles.css */
+
+/* General Styles */
+body.loading {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Authentication Background Pattern */
+.authentication-bg-pattern {
+    background: url('path/to/your/background-pattern.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card.bg-pattern {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Auth Logo */
+.auth-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Form Styles */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-group-merge .form-control {
+    border-right: none;
+}
+
+.input-group-text {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-left: none;
+    cursor: pointer;
+}
+
+.input-group-text .password-eye {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('path/to/your/eye-icon.png') no-repeat center center;
+    background-size: contain;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Footer Styles */
+.footer-alt {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Additional Styles */
+.text-muted {
+    color: #6c757d !important;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-grid {
+    display: grid;
+}
